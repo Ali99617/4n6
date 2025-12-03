@@ -2,7 +2,7 @@
 
 ![Language](https://img.shields.io/badge/Language-Python%203-blue) ![License](https://img.shields.io/badge/License-MIT-green) ![Status](https://img.shields.io/badge/Status-Active-success)
 
-## 📋 Overview
+##  Overview
 
 **4n6** is a comprehensive digital forensics analysis tool designed for analyzing and examining disk structures, filesystems, and forensic artifacts. The tool provides both command-line and graphical user interface (GUI) modes for in-depth forensic investigation.
 
@@ -18,7 +18,7 @@ The tool specializes in automated detection and analysis of:
 - **Malware Indicators** - Boot sector malware detection and suspicious pattern analysis
 - **Anomaly Detection** - Partition corruption, inconsistencies, and data integrity issues
 
-## ✨ Features
+##  Features
 
 ### Core Analysis Capabilities
 
@@ -80,7 +80,7 @@ The tool specializes in automated detection and analysis of:
    - Practical exam question answers (الإجابات الأكاديمية)
    - Export-ready formatted output
 
-## 🛠️ Installation
+##  Installation
 
 ### Requirements
 
@@ -99,7 +99,7 @@ cd 4n6
 python3 forensic_analyzer.py
 ```
 
-## 📖 Usage
+##  Usage
 
 ### GUI Mode (Recommended)
 
@@ -129,7 +129,7 @@ python3 forensic_analyzer.py disk_partition.img
 
 **Output:** Detailed forensic analysis report printed to console
 
-## 📊 Analysis Examples
+##  Analysis Examples
 
 ### MBR Analysis
 
@@ -186,7 +186,7 @@ Boot Sector (0-512 bytes)     : 7.89 [██████████████
 └── __pycache__/                  # Python cache
 ```
 
-## 🎯 Academic Use Cases
+##  Academic Use Cases
 
 This tool is designed for:
 
@@ -196,7 +196,7 @@ This tool is designed for:
 - **System Administration** - Understand disk structure and partitioning
 - **Incident Response** - Investigate suspicious disk anomalies
 
-## 🔬 Technical Details
+##  Technical Details
 
 ### Memory Efficiency
 
@@ -218,7 +218,7 @@ This tool is designed for:
 - Signature verification (0x55AA for MBR, "EFI PART" for GPT, "regf" for Registry)
 - Structural consistency checks
 
-## ⚠️ Important Notes
+##  Important Notes
 
 1. **Read-Only Analysis** - The tool performs read-only analysis and does not modify files
 2. **Large Files** - Handles files up to several GB with automatic mmap optimization
@@ -226,7 +226,7 @@ This tool is designed for:
 4. **UTF-8 Support** - Full support for Arabic and international characters
 5. **Cross-Platform** - Works on Windows, Linux, and macOS
 
-## 📝 Output Format
+##  Output Format
 
 Analysis reports include:
 
@@ -237,14 +237,14 @@ Analysis reports include:
 - Practical exam answers (for educational contexts)
 - Hex dump with formatting and interpretation
 
-## 🎓 Educational Features
+##  Educational Features
 
 - **Practical Exam Answers** - Automatically formatted responses to common forensic questions
 - **Arabic Language Support** - Full interface and output in Arabic
 - **Step-by-Step Analysis** - Clear breakdown of analysis process
 - **Visual Data Inspector** - Multi-format data interpretation (decimal, hex, binary, ASCII)
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to:
 
@@ -253,17 +253,17 @@ Contributions are welcome! Please feel free to:
 - Submit pull requests
 - Share forensic patterns and signatures
 
-## 📄 License
+##  License
 
 MIT License - See LICENSE file for details
 
-## 📧 Contact & Support
+##  Contact & Support
 
 - **Author**: Ali99617
 - **Repository**: https://github.com/Ali99617/4n6
 - **Issues**: GitHub Issues tracker
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 Thanks to the digital forensics community for patterns, signatures, and best practices.
 
