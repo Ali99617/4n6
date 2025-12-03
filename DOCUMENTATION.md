@@ -421,3 +421,4 @@ python3 forensic_analyzer.py <filepath>
 **Document Version**: 1.0  
 **Last Updated**: December 2025  
 **Target Audience**: Students, Researchers, Practitioners
+**Made by**: Student Ali Abdullah Al-Ammari
